@@ -1,0 +1,10 @@
+.topContainer{
+    background-image: url(../Assets/8.JPG);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0,0.5 );
+}
