@@ -25,7 +25,7 @@ const Header = () => {
             Project
         </h4>
       </Link>
-      <Link to="exp "smooth={true} duration={500}>
+      <Link to="exp"smooth={true} duration={500}>
         <h4>
             Experience
         </h4>
