@@ -4,6 +4,8 @@ import TopContainer from './Components/TopContainer/TopContainer';
 import TopContent from './Components/TopConted/TopContent';
 import './App.css';
 import SkilContainer from './Components/SkilContainer/SkilContainer';
+import ProjectContainer from './Components/ProjectContainer/ProjectContainer';
+import Project from './Components/Project/Project';
 function App() {
   return (
     <div>
@@ -11,6 +13,8 @@ function App() {
       <TopContent/>
       <TopContainer/>
       <SkilContainer/>
+      <ProjectContainer/>
+      <Project/>
     </div>
   );
 }
