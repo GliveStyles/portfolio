@@ -4,7 +4,7 @@ import "./Project.css";
 const Project = ({ img, title, desc, link }) => {
   const [show, setShow] = useState(false);
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
+    <a href={link} target="" rel="">
       <div
         className="project"
         onMouseEnter={() => setShow(true)}
