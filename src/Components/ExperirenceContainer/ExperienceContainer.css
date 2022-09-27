@@ -1,4 +1,5 @@
 experience{
+    /* border: 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,11 +8,14 @@ experience{
     margin-bottom: 8rem;
 }
 .achivements{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .circle{
+    padding: 10px;
     width: 4rem;
     height: 4rem;
     background-color: white;
@@ -37,8 +41,33 @@ experience{
     z-index: -1;
     box-shadow: var(--boxshadwow);
 }
+
 .achivements span:nth-of-type(2){
     color: var(--orange);
+}
+.line1{
+    padding: 1%;
+    color: orangered;
+    font-size:large;
+    font-weight: bolder;    
+}
+.line2{
+    padding: 1%;
+    color: orangered;
+    font-size:large;
+    font-weight: bolder;    
+}
+.line3{
+    padding: 1%;
+    color: orangered;
+    font-size:large;
+    font-weight: bolder;    
+}
+.line4{
+    padding: 1%;
+    color: orangered;
+    font-size:large;
+    font-weight: bolder;    
 }
 /* @media screen and (max-width: 480px)
 .experience{
