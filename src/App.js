@@ -2,9 +2,9 @@ import React from 'react';
 import Header from './Components/Header/Header';
 import TopContainer from './Components/TopContainer/TopContainer';
 import TopContent from './Components/TopConted/TopContent';
-import './App.css';
 import SkilContainer from './Components/SkilContainer/SkilContainer';
 import ProjectContainer from './Components/ProjectContainer/ProjectContainer';
+import ExperienceContainer from './Components/ExperirenceContainer/ExpereniceContainer';
 function App() {
   return (
     <div>
@@ -12,7 +12,8 @@ function App() {
       <TopContent/>
       <TopContainer/>
       <SkilContainer/>
-      <ProjectContainer/>
+     <ProjectContainer/>
+     <ExperienceContainer/>
     </div>
   );
 }
