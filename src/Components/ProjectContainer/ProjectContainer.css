@@ -6,7 +6,8 @@
   height: 70hv;
 }
 .project__Containerspan{
-
+  display: block;
+  padding: 50px;
   color:orangered ;
   font-size: 2rem;
   font-weight: bold;

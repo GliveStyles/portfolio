@@ -1,0 +1,29 @@
+.display__Contact{
+    padding: 10px;
+    color: orangered;
+    text-align: center;
+}
+.color_sec{
+    padding-left: 10px;
+    color: rgb(167, 36, 108);
+    font-size: large;
+    font-weight: bolder;
+}
+.color__123{
+    color: darkblue;
+
+}
+.Center__Elements{
+    margin: auto;
+    width: 50%;
+    border: 3px solid orangered;
+    padding: 10px;
+}
+.name__center{
+    position: absolute;
+    width: 50%;
+    color: orangered;
+    padding:5px;
+    text-align: center;
+    
+}
