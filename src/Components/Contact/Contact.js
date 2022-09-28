@@ -6,8 +6,8 @@ export default function ContactUs() {
   
 
   return (
+    <div className="Contact__my" id="contact">
       <Container>
-     
         <Row className="mb-5 mt-3">
           <Col lg="8">
             <h1 className="display__Contact">Contact Me</h1>
@@ -66,5 +66,6 @@ export default function ContactUs() {
           </Col>
         </Row>
       </Container>
+    </div>
   );
 }
