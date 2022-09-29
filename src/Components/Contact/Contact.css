@@ -10,20 +10,6 @@
     font-weight: bolder;
 }
 .color__123{
-    color: darkblue;
+    color: rgb(238, 100, 9);
 
-}
-.Center__Elements{
-    margin: auto;
-    width: 50%;
-    border: 3px solid orangered;
-    padding: 10px;
-}
-.name__center{
-    position: absolute;
-    width: 50%;
-    color: orangered;
-    padding:5px;
-    text-align: center;
-    
 }
