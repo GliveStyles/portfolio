@@ -13,16 +13,16 @@ const SkilContainer = () => {
         </div>
         <div className='skillContainer__text'>
             <h2>SKILLSET</h2>
-            <div className='skillContainer__skillSet'>
+            <div className='skillContainer__skillSet' >
                 <h5>HTML</h5>
                 <div className='skillContainer__slider skillContainer__slider1'>
-                    <LinerProgress variant ="determinate" value={90}/>
+                    <LinerProgress variant ="determinate" value={60}/>
                 </div>
             </div>
             <div className='skillContainer__skillSet'>
                 <h5>css</h5>
                 <div className='skillContainer__slider skillContainer__slider2'>
-                    <LinerProgress variant ="determinate" value={60}/>
+                    <LinerProgress variant ="determinate" value={50}/>
                 </div>
             </div>
             <div className='skillContainer__skillSet'>
@@ -34,7 +34,7 @@ const SkilContainer = () => {
             <div className='skillContainer__skillSet'>
                 <h5>React JS</h5>
                 <div className='skillContainer__slider skillContainer__slider4'>
-                    <LinerProgress variant ="determinate" value={40}/>
+                    <LinerProgress variant ="determinate" value={45}/>
                 </div>
             </div>
             <div className='skillContainer__skillSet'>

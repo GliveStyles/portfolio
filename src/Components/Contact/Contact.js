@@ -20,50 +20,7 @@ export default function ContactUs() {
             <address>
               <strong className="color__123">Email:<span>glivegijiness@gamil.com</span> </strong>
             </address>
-            {/* <p>{contactConfig.description}</p> */}
-          </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <form  className="contact__form w-100">
-              <Row>
-                <Col lg="6" className="Center__Elements">
-                  <input
-                    className="name__center"
-                    id="name"
-                    name="name"
-                    placeholder="Name" 
-                    type="text"
-                    required 
-                  />
-                </Col>
-                <Col lg="6" className="form-group">
-                  <input
-                    className="form-control rounded-0"
-                    id="email"
-                    name="email"
-                    placeholder="Email"
-                    type="email" 
-                    required 
-                  />
-                </Col>
-              </Row>
-              <textarea
-                className="form-control rounded-0"
-                id="message"
-                name="message"
-                placeholder="Message"
-                rows="5" 
-                required
-              ></textarea>
-              <br />
-              <Row>
-                <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit"> 
-                  Send
-                  </button>
-                </Col>
-              </Row>
-            </form>
-          </Col>
+          </Col>  
         </Row>
       </Container>
     </div>
