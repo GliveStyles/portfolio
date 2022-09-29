@@ -7,6 +7,8 @@
     color: white;
     background-color: black;
     top: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
     position: sticky;
     z-index: 2000;
 
@@ -56,3 +58,15 @@
     border-radius: 2px;
     cursor: pointer;
 }
+nav #Icon{
+color:white
+}
+@media screen and (max-width: 480px){
+.header{
+    padding: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 40rem;
+}
+}
+    
